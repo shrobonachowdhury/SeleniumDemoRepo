@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Nveen Testng practice suite]">
+  <test name="TestNG Features testing practice(failed)">
+    <classes>
+      <class name="testing2.DependsOnTesting">
+        <methods>
+          <include name="test1"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- testing2.DependsOnTesting -->
+      <class name="testing2.PracticeTestCases">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testing2.PracticeTestCases -->
+      <class name="testing2.InvocationTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testing2.InvocationTest -->
+      <class name="testing2.PracticTestNG">
+        <methods>
+          <include name="suite6"/>
+          <include name="suite4"/>
+          <include name="suite5"/>
+          <include name="suite2"/>
+          <include name="suite3"/>
+          <include name="suite1"/>
+        </methods>
+      </class> <!-- testing2.PracticTestNG -->
+    </classes>
+  </test> <!-- TestNG Features testing practice(failed) -->
+</suite> <!-- Failed suite [Nveen Testng practice suite] -->

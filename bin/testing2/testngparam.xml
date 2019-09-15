@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "crm test app practice">
+	
+	<test name = "parameters testing">
+	<parameter name="browser" value="chrome" />
+	<parameter name="url" value="https://classic.crmpro.com" />
+	<parameter name="username" value="naveenk" />
+	<parameter name="password" value="test123" />
+	<classes>
+	
+	<class name="testing2.ParametersTesting" />
+	
+	</classes>
+	
+	
+	</test>
+
+
+</suite>
